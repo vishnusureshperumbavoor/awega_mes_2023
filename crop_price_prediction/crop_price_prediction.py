@@ -17,9 +17,5 @@ def main():
 
     st.selectbox("Which is the district?",('Kerala','TamilNadu','Karnataka'))
     
-
-
-
-
 if __name__ == "__main__":
     main()
