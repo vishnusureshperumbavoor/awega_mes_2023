@@ -32,10 +32,13 @@ def main():
         'rainfall':p6,
     },index=[0])
 
-    if st.button('Predict'):
-        pred = dtc_model.predict(data_new)
-        #st.balloons()
-        st.success("You can cultivate {}".format(pred[0]))
+    try:
+        if st.button('Predict'):
+            pred = dtc_model.predict(data_new)
+            #st.balloons()
+            st.success("You can cultivate {}".format(pred[0]))
+    except:
+        st.warning("You can't cultivate crops in this land")
 
 
     
