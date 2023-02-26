@@ -30,10 +30,10 @@ def main():
         'N':p1,
         'P':p2,
         'K':p3,
-        'temperature':p3,
-        'humidity':p4,
-        'ph':p5,
-        'rainfall':p6,
+        'temperature':p4,
+        'humidity':p5,
+        'ph':p6,
+        'rainfall':p7,
     },index=[0])
 
     try:
