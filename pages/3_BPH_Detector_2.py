@@ -20,14 +20,22 @@ def main():
     st.markdown("##### Enter the values by PIR and TCS3200 sensor. \n ")
 
     p1 = st.selectbox("Select IR Value",(7,8,9,10,11,12,13,14))
-    p2 = st.selectbox("Select color in hexadecimal",('#00FF00','#FFFF00'))
-    if p2=="#00FF00":
-        p2=1
-    elif p2=="#FFFF00":
+    p2 = st.selectbox("Select color in hexadecimal",('#00FF00','#FFFF00','#FFAE42','#964B00','#9ACD32','#023020'))
+    if p2=="#FFFF00":
         p2=0
+    elif p2=="#00FF00":
+        p2=1
+    elif p2=='#FFAE42':
+        p2=2
+    elif p2=='#964B00':
+        p2=3
+    elif p2=='#9ACD32':
+        p2=4
+    elif p2=='#023020':
+        p2=5
 
     user_input = pd.DataFrame({
-        'ir_value':p1,
+        'wavelength':p1,
         'color':p2,
     },index=[0])
 
