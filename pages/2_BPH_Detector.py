@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import pywhatkit
+
 from joblib import load
 st.set_page_config(
     page_title="Multiplage App",
@@ -47,6 +48,9 @@ def main():
 
     except:
         st.warning("Prediction error")
+
+    if st.button('send whatsapp message'):
+        pywhatkit.sendwhatmsg_instantly('+919072718041','Hi there is a presence of bph in your field kindly take the needful measures and inform agricultural officers as soon as possible',35,tab_close=True)
     
     
 if __name__ == "__main__":

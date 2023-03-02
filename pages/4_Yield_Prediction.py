@@ -19,13 +19,8 @@ def main():
     if p1=="Ernakulam":
         p1=0
 
-    p2 = st.selectbox("Select Market",('Aluva','Angamaly','Perumbavoor'))
-    if p2=="Aluva":
-        p2=0
-    elif p2=="Angamaly":
-        p2=1
-    elif p2=="Perumbavoor":
-        p2=2
+    
+    
 
     p3 = st.selectbox("Select Crop",('Banana',''))
     if p3=="Banana":
