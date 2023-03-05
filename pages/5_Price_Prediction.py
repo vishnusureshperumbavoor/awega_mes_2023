@@ -69,11 +69,11 @@ def main():
         p7=5
 
     user_input = pd.DataFrame({
-        'District Name':p1,
-        'Market Name':p2,
-        'Commodity':p3,
-        'Variety':p4,
-        'Grade':p5,
+        'district':p1,
+        'market':p2,
+        'commodity':p3,
+        'variety':p4,
+        'grade':p5,
         'month_column':p6.month,
         'season_names':p7,
         'day':p6.weekday(),
