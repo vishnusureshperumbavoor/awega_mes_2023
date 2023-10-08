@@ -1,31 +1,56 @@
 # Vaiga Agrihack 2023
-This is a project that won us [Vaiga Agrihack 2023](https://twitter.com/vspeeeeee/status/1639454744493080578?t=Z8leUs0BCQMJ1ZqP94ji4g&s=19).
 
-Check out this at 
+## Team Members
+Rhithuja Suresh <Br>
+Afwan Sha J <br>
+Vishnu Suresh Perumbavoor (VSP) <br>
+Akhiyaar Muhammed <br>
+Shinas Shanavas <br>
 
-## Developer
-For any inquiries or feedback, please contact [Vishnu Suresh Perumbavoor](https://vishnusureshperumbavoor.github.io/V-S-P/) at <br> <br>
-[![GMail][gmail-shield]][gmail-url]
-[![Twitter][twitter-shield]][twitter-url]
-[![github][github-shield]][github-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Youtube][youtube-shield]][youtube-url]
-[![Instagram][instagram-shield]][instagram-url]
+This is [Vaiga Agrihack 2023](https://twitter.com/vspeeeeee/status/1639454744493080578?t=Z8leUs0BCQMJ1ZqP94ji4g&s=19) winner project
 
-## Sponsorships
-![Bitcoin](https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white)  bc1qk2ed3rlq6d5hk0wp76smu62hr0stczf3zl9v4s <br>
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)  0xb81A7e60922DaBfDAF244FC17702808951010dC3 <br>
-![Google-Pay](https://img.shields.io/badge/GooglePay-%233780F1.svg?style=for-the-badge&logo=Google-Pay&logoColor=white) vishnusureshperumbavoor@okaxis
+Project that won us Vaiga AgriHack 2023 & startup idea presentation at Palakkad.
 
-[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-url]: https://www.linkedin.com/in/vishnu-suresh-perumbavoor/
-[twitter-shield]: https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
-[twitter-url]: https://twitter.com/in/vspeeeeee/
-[instagram-shield]: https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
-[instagram-url]: https://www.instagram.com/vishnusureshperumbavoor/
-[github-shield]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-[github-url]: https://github.com/vishnusureshperumbavoor/
-[gmail-shield]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
-[gmail-url]: mailto:vishnusureshperumbavoor@gmail.com/
-[youtube-shield]: https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white
-[youtube-url]: https://www.youtube.com/@vishnusureshperumbavoor/
+## Technologies used
+• LoRa sensor (IOT device that use LoRa for communication) <Br>
+• LoRa (physical layer technology for long range low power communication) <br>
+• LoRaWAN (networking protocol) <br>
+
+## Sensors to predict BPH
+• NPK Sensor (to detect nitrogen, phosphorus & potassium content in the soil) <br>
+• DTH11 sensor (Digital Temperature & Humidity sensor) <br>
+• Moisture sensor
+
+## Sensors to detect BPH
+• Passive InfraRed radiation sensor <br>
+• TCS3200 color recognition sensor <br>
+
+## Microcontroller
+• ATmega328 (created by Atmel in megaAVR family with modified harvard architecture & 8 bit RISC processor core)
+
+## Machine Learning algorithms
+This projects eXtreme Gradient Boosting (XGB) algorithm for prediction and detection <br>
+XGB showed the highest accuracy of 99% in regression modeling <Br>
+
+Input data 
+1. Prediction <br>
+• Nitrogen <br>
+• Phosphorus <br>
+• Potassium (NPK Sensors) <br>
+• Humidity <br>
+• Temperature (Digital Temperature & Humidity Sensors) <br>
+• Moisture (Moisture sensor) <br>
+
+2. Detection <br>
+• Infrared radiation value (Passive InfraRed sensor) <br>
+• hacadecimal value of paddy color (TCS3200) <br>
+
+(BPH generate a certain infrared radiation wavelength & changes paddy color to orange)
+
+## Tech stack 
+• Scikit-learn (ML library for prediction modling) <br>
+• eXtreme Gradient Boosting (ML regression algorithm) <br>
+• Stremlit (frontend) <Br>
+• Pywhatkit (automated whatsapp message to farmers) <br>
+• Pandas (python library to work with spreadsheet) <br>
+• AWS (Cloud)
