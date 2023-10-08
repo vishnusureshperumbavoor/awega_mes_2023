@@ -7,7 +7,10 @@ Vishnu Suresh Perumbavoor (VSP) <br>
 Akhiyaar Muhammed <br>
 Shinas Shanavas <br>
 
-This is [Vaiga Agrihack 2023](https://twitter.com/vspeeeeee/status/1639454744493080578?t=Z8leUs0BCQMJ1ZqP94ji4g&s=19) winner project
+THis is Vaiga Agrihack winning project
+
+Read more here
+[https://twitter.com/vspeeeeee/status/1639454744493080578?t=Z8leUs0BCQMJ1ZqP94ji4g&s=19](https://twitter.com/vspeeeeee/status/1639454744493080578?t=Z8leUs0BCQMJ1ZqP94ji4g&s=19)
 
 Project that won us Vaiga AgriHack 2023 & startup idea presentation at Palakkad.
 
@@ -26,7 +29,7 @@ Project that won us Vaiga AgriHack 2023 & startup idea presentation at Palakkad.
 • TCS3200 color recognition sensor <br>
 
 ## Microcontroller
-• ATmega328 (created by Atmel in megaAVR family with modified harvard architecture & 8 bit RISC processor core)
+ATmega328 (created by Atmel in megaAVR family with modified harvard architecture & 8 bit RISC processor core)
 
 ## Machine Learning algorithms
 This projects eXtreme Gradient Boosting (XGB) algorithm for prediction and detection <br>
